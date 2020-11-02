@@ -1,0 +1,45 @@
+<!--index.wxml-->
+
+<view class= "title">苏州大学文学院猫咪保护协会</view>
+<navigator url="/pages/about/web/web">
+<view style="display:flex; justify-content:center; align-items:center;">
+  <image mode="widthFix" src="/pages/images/huihui.jpg" style= "width: 93%;">
+  </image>
+</view>
+</navigator>
+<view class="title">【 我们的定位 】</view>
+<view class="body">苏州大学文学院猫咪保护协会由苏州大学文学院研究生会、研究生学硕第一党支部联合发起，以“科普、服务、公益”为宗旨，积极响应习近平总书记“生态兴则文明兴”的号召，致力于改善校园内流浪猫的生活条件及人猫关系，营造和谐、文明、温情的校园生态文明环境；同时，通过对流浪猫的关注与相关知识的普及，唤起学生对流浪动物处境与出路的人文关切，培养健全的生命观，从而在校园日常生活中助推大学生的生态教育与生命教育。</view>
+<text> \n </text>
+<view class="title">【 我们的使命 】</view>
+<view class="body">1. 普及有关猫的生理、生性与喂养等方面知识，提供科学的相处指导；</view>
+<view class="body">2. 动态监测与反馈校园流浪猫的分布及生活状况；</view>
+<view class="body">3. 关注与引导校园流浪猫的绝育、治疗与领养等；</view>
+<view class="body">4. 协助学校流浪动物的管理，提出合理管理建议。</view>
+<text> \n </text>
+<view class="title">【 联系我们 】</view>
+<view class="body">关注“苏大文院研会”公众号，本小程序将持续更新；<text>\n</text>投稿地址：17721109904@yeah.net；<text>\n</text> 只知部分信息（拍摄地点必填）亦可投稿。</view>
+<text> \n </text>
+<view class="title">【 致谢 】</view>
+<view class="body">感谢北京大学在“苏州大学猫咪图鉴”小程序开发中提供的技术支持与帮助。部分文字素材来源于网络，在此深表感谢。</view>
+<!-- 最好能保留这一行 -->
+
+<text> \n </text>
+
+<view class="staff">2020-08-16</view>
+<view class="staff">版本：V1.0</view>
+<view class="staff">供图：苏州大学学生</view>
+<view class="staff">猫咪资料统计：学硕一支部、文研会</view>
+<view class="staff">负责人：文学院研究生学硕第一党支部书记田毓</view>
+<view class="staff">文学院研究生会主席高宇</view>
+
+
+<view  class = "itemname1">
+  <view bindtap="naviToMini" style='flex-shrink:0; box-sizing:border-box; width:3rem; margin-right:1rem;'>
+    <image style="width:3rem;height:3rem;" src="/pages/images/circle.png" ></image>
+    <view style="text-align: center;  color:#353535;" > \n 高校动保索引 </view>  
+  </view>
+</view>
+
+
+<text> \n </text>
+

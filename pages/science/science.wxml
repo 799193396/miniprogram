@@ -1,0 +1,267 @@
+<view class="navbar">
+  <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text>
+</view>
+
+<view hidden="{{currentTab!==0}}">
+
+<view class="title"> 猫咪专访</view>
+
+<view class="body">
+  禁忌菜单：牛奶、辣椒、葱类、鱼类、巧克力、高油高盐食品（包括腌制肉类、餐余饭菜、花式饼干、大部分火腿肠）等<text class = "bodybold">不可以</text>喂食！此外人们常用来喂猫的火腿肠和牛奶也并不适合猫咪，会引起肠胃反应，造成腹泻等状况。酸性的各类水果、香辛料制的肉类、乌贼等海产也均不适合猫咪食用。
+</view>
+
+<view class="body">
+猫常见的较合适的食物有猫粮、罐头、以及其它一些小吃（具体种类见下）。
+</view>
+
+<view class="head1">推荐菜单</view>
+
+<view class="body">
+  猫咪食品（猫粮、猫罐头等）+饮用水。
+</view>
+<view class="body">
+  请严格控制投喂总量，建议“少量多次”，避免浪费和污染.
+</view>
+<view class="body">
+  请与猫咪保持适当的距离，尤应避免过度亲近，以防抓伤、咬伤；若不慎产生伤口，务必第一时间用清水冲洗、用酒精消毒，并前往医院进行专业处理.
+</view>
+<view class="body">
+  每次较近距离接触猫咪后，务必使用抑菌洗手液洗手及其他接触部位.
+</view>
+<view class="body">
+  尽量不要在交通干道或教学区域等投喂猫咪，避免安全隐患.
+</view>
+<view class="body">
+  如发现猫咪有明显外伤、精神不振等状况，可及时求助联系医治.
+</view>
+
+
+</view>
+
+<view hidden="{{currentTab!==1}}">
+
+<view class="title">猫咪专访</view>
+<view class="body" style="display: flex;justify-content: center;margin: 0 auto;">
+  为更好地推进猫咪保护协会的日常工作
+</view>
+<view class="body" style="display: flex;justify-content: center;margin: 0 auto;">
+  我们特地专访了当事猫
+</view>
+<view class="body" style="display: flex;justify-content: center;margin: 0 auto;">
+  让我们来听听它的声音吧！
+</view>
+<view class="body" style="display: flex;justify-content: center;margin: 0 auto;">
+  ↓↓↓
+</view>
+<view class="body"><text>\n</text></view>
+<view class="body">问：请问你们都什么时候闪现？</view>
+<view class="body">答：你知道有个词叫“夜猫子”吗？一般来说，我们喜欢在夜间搞事情。不过，得益于同学们的体贴和照料，大白天也可以经常看到我们的身影哦。</view>
+<view class="body"><text>\n</text></view>
+<view class="body">问：请问你可以吃食堂带的鸡腿or煎饼吗？</view>
+<view class="body">答：有仔细读禁忌菜单吗？下一题。</view>
+<view class="body"><text>\n</text></view>
+<view class="body">问：请问你可以吃微辣的食物吗？</view>
+<view class="body">答：辣分几种？微辣、中辣、特辣、走开辣。</view>
+<view class="body"><text>\n</text></view>
+<view class="body">问：请问你们一般在哪里睡觉？</view>
+<view class="body">答：你心里。</view>
+<view class="body"><text>\n</text></view>
+<view class="body">问：听说最好的帮助就是带你们做绝育，是真的吗？</view>
+<view class="body">答：我哭了，我装的。</view>
+<view class="body"><text>\n</text></view>
+<view class="body">问：请问你们喜欢被我们抚摸吗？</view>
+<view class="body">答：虽然我们中间有的不抗拒人类的爱抚，但多数还是谨听妈妈的教导，怀有比较强的警戒心。况且，有时在本能驱使之下，我们可能会误伤哦！所以，“爱我你就看看我”——毕竟一针疫苗还是很贵的！想想你的花呗还完了吗？嗯？</view>
+<view class="body"><text>\n</text></view>
+<view class="body">问：请问你觉得大家应该采取怎样的呵护方式呢？</view>
+<view class="body">答：其实呀，像我们这个群体，本身就应该具备比较强的警戒心和生存能力，所以一般校园外的家伙们是不太需要被人类喂养和亲近的（最好的喂养就是领养哦~）。而因为我们有幸住在校园，能够跟同学们互不打扰地友善相处，所以才有了栖息之所。有条件的同学，可以囤些猫粮——买它买它买它！（充分暗示）不过，更重要的是，当我们在忍受病痛、投出楚楚可怜的眼神时，能够及时得到大家的善意的关注和帮助，这就够啦~</view>
+<view class="body"><text>\n</text></view>
+<view class="body">问：最后还有什么想要对大家说的吗？</view>
+<view class="body">答：特别感谢一直以来大家的包容、关怀和照料（鞠躬）！真的！也希望我们能装点大家的校园生活和日后的回忆，给大家带来快乐和温暖——我们不但可爱，还可爱你们了呢！。</view>
+<view class="body"><text>\n</text></view>
+<view class="staff">科普内容参考：苏大文学院吗猫协</view>
+
+
+</view>
+
+<view hidden="{{currentTab!==2}}">
+
+<view class="title">领养</view>
+
+
+<view class="body">
+几乎所有流浪猫都是被遗弃的宠物猫，已经被人类驯化，并没有野外生存能力，而非所谓“自由自在的野猫”。流浪意味着面临风吹日晒，冻饿，机动车和流浪狗的伤害，猫协只能尽力保证其基本生存，并不能满足猫咪的全部需求。
+</view>
+
+<view class="head1">
+领养要求
+</view>
+
+
+<view class="body">
+o	请不要放养猫咪：可能感染寄生虫、误食鼠药、被猫贩子抓走，此外猫咪记忆力不太好，容易走失。
+</view>
+
+<view class="body">
+o	请给猫咪吃正规猫粮、用猫砂。猫咪的身体和人类不同，人类的食物并不适合它们。使用猫砂，也能给您的家营造一个干净的环境。
+</view>
+
+<view class="body">
+o	请按时给猫咪免疫、绝育，猫咪的繁殖能力很强，请不要再给已经膨胀不堪的猫口带来更多的压力，这不是爱猫，是害猫。
+</view>
+
+<view class="body">
+o	家人、合租室友、房东（如有）都接纳猫咪的到来，不要因为猫咪一时的顽皮就厌恶它、抛弃它。
+</view>
+
+<view class="body">
+o	请保持与送养人的联系，有事请及时与送养人沟通，并接受回访。
+</view>
+
+<view class="body">
+</view>
+
+<view class="head1">
+领养流程
+</view>
+
+<view class="body">
+o	阅读领养说明，确认自身符合领养条件
+</view>
+
+<view class="body">
+o	联系送养人，填写申请表问卷
+</view>
+
+<view class="body">
+o	送养人对问卷进行初审，就相关问题与您进行沟通
+</view>
+
+<view class="body">
+o	通过初审后，接受视频家访
+</view>
+
+<view class="body">
+o	家访通过后，按照送养人建议准备猫咪用品
+</view>
+
+<view class="body">
+o	签订领养协议，领猫咪回家w
+</view>
+
+<view class="body">
+o	不定期接受微信照片/视频回访
+</view>
+
+<view class="body">
+</view>
+
+
+
+<view class="staff">科普内容参考：北大猫协</view>
+
+</view>
+
+<view hidden="{{currentTab!==3}}">
+
+<view class="title">绝育</view>
+
+
+<view class="body">
+而绝育后的流浪猫攻击性一般会下降，且不再有长时间的叫春等行为。也在一定程度上调和了人与猫的矛盾。
+</view>
+
+<view class="body">
+有研究表明，不绝育的流浪猫平均寿命不足3年，而绝育的流浪猫平均寿命则大幅上升。造成这种差别的原因有很多。其中一个就是流浪猫生存环境恶劣，母猫难产、幼猫早夭发生概率很高，拉低了平均寿命。另一个原因在于，过度交配、生育会大幅增加猫的生殖系统病变的概率，从而导致死亡。
+</view>
+
+<view class="body">
+猫的繁殖能力非常强大，因此对于家养猫，放任其交配显然不合理。而如果常年不让猫在发情期交配，则很可能会引起猫生殖系统的病变。因此绝育同样是一个必然的选项。
+</view>
+
+<view class="body">
+一只家猫的寿命基本稳定在13~18年之间，平均15年。而流浪猫由于很多并不是正常死亡，所以其寿命是要远小于此的。根据首都爱护动物协会(CAWA)2007年发布的《北京市流浪猫生存状况的调查报告》中显示，未绝育的流浪猫的平均寿命仅有3年，死因多为意外、疾病、难产等。已绝育的流浪猫寿命尚无明确文献支持，根据校园内实际记录，一般能达到10年左右。根据协会已有的记录，校园内最长寿的流浪猫流浪了12年后被收养，寿命超过15岁，依旧精神矍铄。
+</view>
+
+<view class="staff">科普内容参考：北大猫协</view>
+
+</view>
+
+<view hidden="{{currentTab!==4}}">
+
+<view class="title">撸猫指南</view>
+
+<view class="body">
+
+多数流浪猫对人类较为警惕（不愿意与人类亲近），在校内偶遇流浪猫时，可在小程序中通过花色查找这只猫的基本信息，性格描述为“亲人可抱/亲人不可抱 可摸/薛定谔亲人”时可尝试接近。
+</view>
+
+<view class="body">
+另外需要提醒的是，校内的流浪猫全都没有打过疫苗，若在与流浪猫互动时不小心被咬伤或挠伤，请前往海淀医院挂号，并遵医嘱。
+</view>
+
+<view class="body">
+一般来说，猫同人一样，不同的行为表现反映出心情也不同。我们将其中简单表意较明确的一些摘录出来：
+</view>
+
+<view class="body">
+o	不断喵喵叫：猫不断地叫一般代表某种诉求，比如想吃东西，想上厕所，需要玩耍等，其多会辅以肢体语言指示自己的需要。
+</view>
+
+<view class="body">
+
+</view>
+
+<view class="body">
+o	咕噜声：是满足或疗伤的信号。猫咪们总在它们开心的时候发出咕噜声，甚至在它们吃东西的时候也这样。另一方面，当猫咪受伤或生病时，也会发出这样的
+声音。据研究表明，这一声音有助于猫咪组织再生。因此，如果猫咪反常的持续发出呼噜声，需要考虑生病可能。
+</view>
+
+<view class="body">
+o	咆哮：发出咝咝声、“哈——”（也叫哈人）一类的声音 表示这只猫被惹恼了，很害怕，生气或者有进攻性，这时不应招惹这只猫。
+</view>
+
+<view class="body">
+
+</view>
+
+<view class="body">
+o	号叫声：是一种大声的、拖长了的“喵”。表示猫陷入了某种痛苦的困境，比如遭受了剧烈疼痛，跳进了地下室等等情况，这说明这只猫陷入了危险。当然，对于
+未绝育的猫来说，这种叫声也用于求偶（叫春）。
+
+</view>
+
+<view class="body">
+o	飞机头：耳朵向后，向两边倒，贴近头部，生气，愤怒，受到了惊吓。
+</view>
+
+<view class="body">
+
+o	水平或低垂的摇动尾巴：表示愤怒，准备攻击。
+</view>
+
+<view class="body">
+
+o	尾巴向下收拢，全身紧张：极度恐惧，这时候请慢慢退离，以减小对猫咪的刺激。
+</view>
+
+<view class="body">
+
+o	毛发竖起：俗称炸毛。生气，收到惊吓。亦有少量猫兴奋时会出现此举动
+</view>
+
+<view class="body">
+
+</view>
+
+<view class="body">
+o	缓慢眨眼：缓慢眨眼是猫语言中的“我爱你”。当需要对猫示好的时候，也可以对猫缓慢眨眼，约每次睁眼一两秒，闭眼两三秒。一般数次之后即有效果，可使猫
+平静或不再注意你。
+</view>
+
+<view class="body">
+此外，与猫玩耍应注意猫不喜欢被抚摸爪子，腹部，下体等处，这会增加它们的不安。较安全的是抚摸额头，背部，脖子等部位。特别是下巴，由于猫的爪子不太容易够到下巴，所以帮它们挠挠下巴，猫一般都会很开心。
+</view>
+
+<view class="staff">科普内容参考：北大猫协</view>
+
+</view>
